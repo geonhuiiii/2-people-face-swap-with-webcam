@@ -26,7 +26,6 @@ while True:
     if k == ord('s'):
         try:
             myface = app.get(frame)
-            print(myface)
             firstface = Face(**myface[0])
             secondface = Face(**myface[1])
             firstface.embedding *= 1.5
